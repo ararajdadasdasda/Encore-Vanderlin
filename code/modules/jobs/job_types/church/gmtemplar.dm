@@ -19,6 +19,12 @@
 		/datum/attribute/skill/craft/alchemy = 10,
 	)
 
+/datum/attribute_holder/sheet/job/gmtemplar/knoblit
+	attribute_variance = list()
+	raw_attribute_list = list(
+		STAT_STRENGTH = 2,
+		STAT_CONSTITUTION = 2,
+	)
 /datum/job/gmtemplar
 	title = JOB_GRANDMASTER_TEMPLAR
 	unique_alt_honororary = TRUE
@@ -64,6 +70,10 @@
 
 	languages = list(/datum/language/common, /datum/language/newunsundered, /datum/language/oldunsundered)
 
+/datum/job/church/gmtemplar/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+	. = ..()
+	if(spawned.dna?.species.id == "knoblit")
+		spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/monk/kobold)
 
 /datum/job/gmtemplar/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
