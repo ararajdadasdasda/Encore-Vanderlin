@@ -464,6 +464,8 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_NOMOOD "no_mood"
 #define TRAIT_BAD_MOOD "Bad Mood"
 #define TRAIT_NIGHT_OWL "Night Owl"
+/// Prevents hostile animals and summoned creatures from targeting this mob.
+#define TRAIT_ANIMAL_PROTECTION "animal_protection"
 #define TRAIT_SIMPLE_WOUNDS "simple_wounds"
 #define TRAIT_SCHIZO_AMBIENCE "schizo_ambience" //replaces all ambience with creepy shit
 #define TRAIT_SCREENSHAKE "screenshake" //screen will always be shaking, you cannot stop it
