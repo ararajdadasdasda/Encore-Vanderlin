@@ -54,7 +54,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_UI_BLOCKED "uiblocked"
 /// Inability to pull things. Turned into a trait from [MOBILITY_PULL] to be able to track sources.
 #define TRAIT_PULL_BLOCKED "pullblocked"
-/// Apply this to make a mob not dense, and remove it when you want it to no longer make them undense, other sources of undesity will still apply. Always define a unique source when adding a new instance of this!
+/// Apply this to make a mob not dense, and remove it when you want it to no longer make them undense, other sources of undesity will still apply. Always define a unique source when adding a new i[...]
 #define TRAIT_UNDENSE "undense"
 /// Abstract condition that prevents movement if being pulled and might be resisted against. Handcuffs and straight jackets, basically.
 #define TRAIT_RESTRAINED "restrained"
@@ -249,6 +249,8 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_FOREIGNER "Foreigner"
 /// mob cannot be ambushed for any reason
 #define TRAIT_NOAMBUSH "no_ambush"
+/// Prevents hostile animals and summoned creatures from targeting this mob.
+#define TRAIT_ANIMAL_PROTECTION "animal_protection"
 /// Can see build blueprints
 #define TRAIT_BLUEPRINT_VISION "blueprint_vision"
 /// Used to limit healing to putrid flesh mobs

@@ -1,18 +1,3 @@
-/datum/targetting_datum
-
-///Returns true or false depending on if the target can be attacked by the mob
-/datum/targetting_datum/proc/can_attack(mob/living/living_mob, atom/target)
-	return
-
-///Returns something the target might be hiding inside of
-/datum/targetting_datum/proc/find_hidden_mobs(mob/living/living_mob, atom/target)
-	var/atom/target_hiding_location
-	if(istype(target.loc, /obj/structure/closet))
-		target_hiding_location = target.loc
-	return target_hiding_location
-
-/datum/targetting_datum/basic
-
 /datum/targetting_datum/basic/can_attack(mob/living/living_mob, atom/the_target)
 	if(isturf(the_target) || !the_target ) // bail out on invalids
 		return FALSE
@@ -37,45 +22,10 @@
 
 	if(isliving(the_target)) //Targetting vs living mobs
 		var/mob/living/L = the_target
-		if(L.has_faction("bogwitch_protected"))
+		if(HAS_TRAIT(L, TRAIT_ANIMAL_PROTECTION))
 			return FALSE
 		if(faction_check(living_mob, L) || L.stat >= DEAD) //basic targetting doesn't target dead people
 			return FALSE
 		return TRUE
 
 	return FALSE
-
-/datum/targetting_datum/basic/proc/faction_check(mob/living/living_mob, mob/living/the_target)
-	return living_mob.faction_check_atom(the_target, exact_match = FALSE)
-
-/// Subtype which doesn't care about faction
-/// Mobs which retaliate but don't otherwise target seek should just attack anything which annoys them
-/datum/targetting_datum/basic/ignore_faction
-
-/datum/targetting_datum/basic/ignore_faction/faction_check(mob/living/living_mob, mob/living/the_target)
-	return FALSE
-
-/datum/targetting_datum/basic/zizoid/can_attack(mob/living/living_mob, atom/the_target)
-	if(isliving(the_target))
-		var/mob/living/target = the_target
-		if(target.mind?.has_antag_datum(/datum/antagonist/archdevilcultist))
-			return FALSE
-	. = ..()
-
-
-GLOBAL_DATUM_INIT(conjured_targetting, /datum/targetting_datum/basic/conjured, new)
-
-/datum/targetting_datum/basic/conjured
-
-/datum/targetting_datum/basic/conjured/can_attack(mob/living/living_mob, atom/the_target)
-	. = ..()
-	if(!.)
-		return FALSE
-	var/datum/component/conjured_minion/comp = living_mob.GetComponent(/datum/component/conjured_minion)
-	if(!comp)
-		return TRUE
-	var/mob/living/summoner = comp.summoner_ref?.resolve()
-	if(!summoner || summoner.z != living_mob.z)
-		return TRUE
-	if(get_dist(the_target, summoner) > comp.leash_range + 1)
-		return FALSE

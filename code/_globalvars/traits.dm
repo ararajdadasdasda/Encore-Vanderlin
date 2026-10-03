@@ -71,6 +71,7 @@ GLOBAL_LIST_INIT(traits_by_type, list(
 		"No Breath" = TRAIT_NOBREATH,
 		"TRAIT_HOLY" = TRAIT_HOLY,
 		"No Ambush" = TRAIT_NOAMBUSH,
+		"Animal Protection" = TRAIT_ANIMAL_PROTECTION,
 		"No Crit Damage" = TRAIT_NOCRITDAMAGE,
 		"No Crit Overlay" = TRAIT_NOCRITOVERLAY,
 		"No Slip (Water)" = TRAIT_NOSLIPWATER,
@@ -283,7 +284,7 @@ GLOBAL_LIST_INIT(roguetraits, list(
 	TRAIT_BLOODDRINKER = span_bloody("I can drink the blood of others and digest it."),
 	TRAIT_SILVER_IMMUNE = span_info("I am unaffected by the divine properties of silver."),
 	TRAIT_CRACKHEAD = span_love("I can use drugs as much as I want!"),
-	TRAIT_CIVILIZEDBARBARIAN = span_info("My rigorous training in the martial arts has turned me into a living weapon. No limb is out of reach for my fists and feet, and my unarmed strikes now have a higher chance to inflict critical damage."),
+	TRAIT_CIVILIZEDBARBARIAN = span_info("My rigorous training in the martial arts has turned me into a living weapon. No limb is out of reach for my fists and feet, and my unarmed strikes now have some amazing property."),
 	TRAIT_NUDE_SLEEPER = span_warning("I can't fall asleep unless I'm nude and in bed."),
 	TRAIT_SOUL_EXAMINE = span_suicide("I know when someone's soul has departed after checking their heartbeat."),
 	TRAIT_CYCLOPS_LEFT = span_warning("My left eye has been poked out..."),
@@ -401,4 +402,3 @@ GLOBAL_LIST_INIT(movement_type_removetrait_signals, set_movement_type_removetrai
 	. = list()
 	for(var/trait in GLOB.movement_type_trait_to_flag)
 		. += SIGNAL_REMOVETRAIT(trait)
-
