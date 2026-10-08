@@ -57,7 +57,8 @@
 	icon = 'icons/roguetown/clothing/special/gronn.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/gronn.dmi'
 	sleeved = 'icons/roguetown/clothing/special/onmob/gronn.dmi'
-	armor_type = /datum/armor/gloves/maille/iron
+	armor_class = AC_MEDIUM
+	armor_type = /datum/armor/gloves/maille/maille
 	max_integrity = INTEGRITY_STRONGEST
 	item_weight = 1.35 KILOGRAMS
 	smeltresult = null
