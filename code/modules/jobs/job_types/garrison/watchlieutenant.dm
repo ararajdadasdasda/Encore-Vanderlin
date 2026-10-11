@@ -51,19 +51,19 @@
 	and tenant meaning "holding" as in "holding a position";
 	thus a "lieutenant" is a placeholder for a superior, during their absence.
 	*/
-	title = JOB_CITY_WATCH_LIEUTENANT
-	tutorial = "You are a lieutenant of the City Watch. \
-	You have been chosen by the Captain to lead the Watch in his absence; \
+	title = "Garrison Lieutenant"
+	tutorial = "You are a Lieutenant of the Garrison. \
+	You have been chosen by the Captain to lead the Men-at-Arms and Watchmen in their absence; \
 	Failure is not an option."
 	department_flag = GARRISON
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_CITYWATCHMEN
 	factions = list(FACTION_TOWN)
-	total_positions = 99
-	spawn_positions = 99
+	total_positions = 1
+	spawn_positions = 1
 	bypass_lastclass = TRUE
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
-	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	allowed_races = RACES_LESS_DISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	outfit = /datum/outfit/lieutenant
 	give_bank_account = 50
@@ -123,11 +123,12 @@
 	gloves = /obj/item/clothing/gloves/chain/iron
 	neck = /obj/item/clothing/neck/gorget
 	backl = /obj/item/storage/backpack/satchel
-	beltr = /obj/item/flashlight/flare/torch/lantern
+	beltr = /obj/item/weapon/mace/cudgel
 	backpack_contents = list(
 		/obj/item/rope/chain = 1,
 		/obj/item/book/law/small = 1,
-		/obj/item/weapon/mace/cudgel = 1
+		/obj/item/weapon/knife/dagger = 1,
+		/obj/item/weapon/scabbard/knife = 1,
 	)
 
 /datum/outfit/lieutenant/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)

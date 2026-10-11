@@ -165,6 +165,10 @@
 	accesses = list(ACCESS_GRAVE)
 	difficulty = LOCK_SKILLED
 
+/obj/effect/mapping_helpers/access/keyset/church/vault
+	accesses = list(ACCESS_CHURCH)
+	difficulty = LOCK_MASTER
+
 // Manor locks
 /obj/effect/mapping_helpers/access/keyset/manor
 	color = "#a926ad"

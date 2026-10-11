@@ -10,6 +10,7 @@
 "bL" = (
 /obj/structure/window,
 /obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 1
 	},
 /turf/open/floor/ruinedwood/two,
@@ -60,6 +61,14 @@
 /area/indoors/town)
 "jp" = (
 /turf/open/floor/tile/kitchen,
+/area/indoors/town)
+"lJ" = (
+/obj/structure/door{
+	name = "House VII";
+	lockid = "house7"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/sandstone,
 /area/indoors/town)
 "lN" = (
 /obj/structure/chair/stool/crafted,
@@ -173,15 +182,16 @@
 /area/indoors/town)
 "DZ" = (
 /obj/effect/mapping_helpers/access/locker,
-/obj/structure/door{
-	name = "House VII";
-	lockid = "house7"
+/obj/structure/door/bolt{
+	dir = 4;
+	name = "House VII"
 	},
 /turf/open/floor/tile/kitchen,
 /area/indoors/town)
 "Ee" = (
 /obj/structure/window,
 /obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 4
 	},
 /turf/open/floor/ruinedwood/two,
@@ -212,6 +222,18 @@
 /area/indoors/town)
 "EU" = (
 /turf/open/openspace,
+/area/indoors/town)
+"FX" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/clothing/pants/tights,
+/obj/item/clothing/pants/tights,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/sandstone,
 /area/indoors/town)
 "II" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
@@ -254,11 +276,6 @@
 /turf/open/floor/twig,
 /area/indoors/town)
 "QH" = (
-/obj/structure/rack/shelf/biggest,
-/obj/item/clothing/pants/tights,
-/obj/item/clothing/pants/tights,
-/obj/item/natural/cloth,
-/obj/item/natural/cloth,
 /obj/structure/fluff/railing/wood{
 	dir = 8
 	},
@@ -271,11 +288,11 @@
 /turf/open/floor/tile/kitchen,
 /area/indoors/town)
 "UJ" = (
-/obj/structure/door{
-	name = "House VII";
-	lockid = "house7"
-	},
 /obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/bolt{
+	dir = 1;
+	name = "House VII"
+	},
 /turf/open/floor/tile/kitchen,
 /area/indoors/town)
 "VX" = (
@@ -314,7 +331,9 @@
 /area/indoors/town)
 "Xh" = (
 /obj/structure/window,
-/obj/structure/curtain/bounty/dir,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
+	},
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town)
 "XM" = (
@@ -350,7 +369,7 @@ Ox
 (3,1,1) = {"
 YW
 YW
-vm
+FX
 pu
 BS
 Ox
@@ -384,7 +403,7 @@ YW
 YW
 Ox
 YW
-YW
+lJ
 xW
 "}
 

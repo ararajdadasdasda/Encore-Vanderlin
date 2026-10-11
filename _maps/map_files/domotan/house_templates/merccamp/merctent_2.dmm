@@ -1,0 +1,203 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/twig,
+/area/template_noop)
+"b" = (
+/obj/structure/roguetent,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/twig,
+/area/template_noop)
+"d" = (
+/obj/structure/sign/property_sign/claim/outsider,
+/turf/closed/wall/mineral/tent,
+/area/template_noop)
+"r" = (
+/obj/structure/spider/stickyweb/solo,
+/turf/open/floor/twig,
+/area/template_noop)
+"t" = (
+/obj/machinery/light/fueled/torchholder/c,
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/floor/twig,
+/area/template_noop)
+"u" = (
+/obj/machinery/light/fueled/torchholder/metal_torch/west,
+/turf/open/floor/twig,
+/area/template_noop)
+"v" = (
+/obj/machinery/light/fueled/torchholder/metal_torch/east,
+/turf/open/floor/twig,
+/area/template_noop)
+"z" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/twig,
+/area/template_noop)
+"B" = (
+/turf/closed/wall/mineral/tent,
+/area/template_noop)
+"G" = (
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/twig,
+/area/template_noop)
+"M" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/spider/stickyweb/solo,
+/turf/open/floor/twig,
+/area/template_noop)
+"R" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/template_noop)
+"S" = (
+/obj/structure/fluff/walldeco/vinez/blue,
+/turf/closed/wall/mineral/tent,
+/area/template_noop)
+"Y" = (
+/obj/structure/ladder,
+/turf/open/floor/twig,
+/area/template_noop)
+
+(1,1,1) = {"
+S
+S
+B
+B
+B
+R
+R
+"}
+(2,1,1) = {"
+B
+G
+a
+a
+a
+v
+R
+"}
+(3,1,1) = {"
+d
+a
+z
+a
+a
+a
+B
+"}
+(4,1,1) = {"
+b
+a
+z
+a
+r
+a
+B
+"}
+(5,1,1) = {"
+b
+a
+z
+a
+z
+a
+B
+"}
+(6,1,1) = {"
+B
+a
+r
+z
+Y
+a
+B
+"}
+(7,1,1) = {"
+B
+t
+a
+a
+a
+u
+S
+"}
+(8,1,1) = {"
+B
+B
+B
+B
+B
+S
+S
+"}
+
+(1,1,2) = {"
+B
+B
+B
+B
+B
+R
+R
+"}
+(2,1,2) = {"
+B
+M
+z
+a
+a
+z
+R
+"}
+(3,1,2) = {"
+B
+z
+a
+a
+a
+a
+b
+"}
+(4,1,2) = {"
+B
+a
+a
+a
+a
+a
+B
+"}
+(5,1,2) = {"
+b
+a
+a
+a
+a
+a
+B
+"}
+(6,1,2) = {"
+b
+a
+a
+a
+Y
+z
+B
+"}
+(7,1,2) = {"
+B
+z
+a
+a
+a
+M
+B
+"}
+(8,1,2) = {"
+B
+B
+B
+B
+B
+B
+B
+"}

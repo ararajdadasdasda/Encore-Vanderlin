@@ -188,7 +188,7 @@
 	anchored = TRUE
 	density = TRUE
 	max_contained_items = 4
-	fueluse = 5 MINUTES
+	fueluse = 30 MINUTES
 	climbable = FALSE
 	max_crucible_temperature = 2000
 

@@ -9,8 +9,8 @@
 	display_order = JDO_ROYALKNIGHT
 	factions = list(FACTION_TOWN, SUB_FACTION_KEEP, SUB_FACTION_VAULT)
 	outfit = /datum/outfit/royalknight
-	total_positions = 99
-	spawn_positions = 99
+	total_positions = 4
+	spawn_positions = 4
 	bypass_lastclass = TRUE
 	selection_color = "#920909"
 	max_apprentices = 2

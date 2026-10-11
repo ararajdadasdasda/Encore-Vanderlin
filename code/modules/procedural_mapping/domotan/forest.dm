@@ -60,10 +60,13 @@
 							/obj/structure/chair/bench/ancientlog = 0.25,
 							/obj/item/natural/stone = 2,
 							/obj/item/natural/rock = 4,
-							/obj/item/grown/log/tree/stick = 6)
+							/obj/item/grown/log/tree/stick = 6,
+							/obj/structure/flora/newtree/snow = 25
+							)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/basin/safe)
+							/area/outdoors/basin/safe,
+							/area/outdoors/wilderness/merccamp)
 
 /datum/mapGeneratorModule/domotanforestsnow/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE

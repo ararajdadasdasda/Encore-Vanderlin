@@ -5,7 +5,7 @@
 /datum/grudge_type/job/knight_over_guardsman
 	grudge_bitflags = GARRISON
 	aggressor_titles = list(/datum/job/royalknight::title, /datum/job/lieutenant::title)
-	victim_titles = list(/datum/job/guardsman::title, /datum/job/men_at_arms::title)
+	victim_titles = list(/datum/job/garrisonsoldier::title)
 	grudge_name = "Abuse of Authority"
 	aggressor_text = "You assigned them the worst duties for weeks and made sure they knew it was personal."
 	victim_text = "They used their rank to make your life miserable with no recourse available to you."

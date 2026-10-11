@@ -179,7 +179,7 @@
 	add_random_deserter_beltr_stuff(H)
 
 /mob/living/carbon/human/species/human/northern/bog_deserters/better_gear
-	faction = list("viking", "station")
+	faction = list(FACTION_VIKINGS)
 	ambushable = FALSE
 	cmode = 1
 	setparrytime = 30

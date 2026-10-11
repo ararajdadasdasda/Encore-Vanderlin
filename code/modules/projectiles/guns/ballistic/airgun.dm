@@ -56,11 +56,11 @@
 	. += "The loading chamber is [loading_chamber ? "open" : "closed"]."
 	switch(pressure_to_use)
 		if(1)
-			. += "The pressure gauge arrow is positioned to the far left."
+			. += "The pressure gauge arrow is firmly to the far left, in the green."
 		if(2)
-			. += "The pressure gauge arrow is positioned in the middle."
+			. += "The pressure gauge arrow is jittering in the middle, in the yellow."
 		if(3)
-			. += "The pressure gauge arrow is positioned to the far right."
+			. += "The pressure gauge arrow is rattling violently to the far right, in the red."
 
 /obj/item/gun/ballistic/airgun/shoot_with_empty_chamber(mob/user)
 	if(!COOLDOWN_FINISHED(src, hiss_cooldown))

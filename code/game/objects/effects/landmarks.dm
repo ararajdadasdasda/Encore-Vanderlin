@@ -119,11 +119,11 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 /obj/effect/landmark/start/courtphys
 	name = JOB_COURT_PHYSICIAN
 	jobs_to_spawn = list(JOB_COURT_PHYSICIAN)
-
+/*
 /obj/effect/landmark/start/guardsman
 	name = JOB_CITY_WATCH
 	jobs_to_spawn = list(JOB_CITY_WATCH)
-
+*/
 /obj/effect/landmark/start/lieutenant
 	name = JOB_CITY_WATCH_LIEUTENANT
 	jobs_to_spawn = list(JOB_CITY_WATCH_LIEUTENANT)

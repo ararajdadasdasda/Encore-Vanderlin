@@ -109,6 +109,11 @@
 	max_integrity = 300
 	component_type = /datum/component/storage/concrete/grid/sack/meat
 	item_weight = 200 GRAMS
+	sewrepair = /datum/attribute/skill/craft/tanning/patching
+	salvage_amount = 1
+	salvage_result = /obj/item/natural/hide/cured
+	component_type = /datum/component/storage/concrete/grid/orebag
+	var/auto_pickup = TRUE
 
 /obj/item/storage/meatbag/attack_hand_secondary(mob/user, list/modifiers)
 	. = ..()

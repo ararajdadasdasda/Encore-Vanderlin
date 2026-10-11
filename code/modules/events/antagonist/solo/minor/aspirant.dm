@@ -71,7 +71,7 @@
 		/datum/job/minor_noble,
 		/datum/job/jester,
 		/datum/job/dungeoneer,
-		/datum/job/men_at_arms,
+//		/datum/job/men_at_arms,
 		/datum/job/gatemaster,
 		/datum/job/butler,
 		/datum/job/servant,

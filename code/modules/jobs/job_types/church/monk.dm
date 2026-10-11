@@ -111,7 +111,7 @@
 	department_flag = CHURCHMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_MONK
-	factions = list(FACTION_TOWN)
+	factions = list(FACTION_TOWN, FACTION_CHURCH)
 	total_positions = 99
 	spawn_positions = 99
 	bypass_lastclass = TRUE

@@ -42,13 +42,13 @@
 	color = CLOTHING_FOREST_GREEN
 
 /obj/item/clothing/cloak/raincloak/colored/blue
-	color = CLOTHING_SKY_BLUE
+	color = CLOTHING_MIDNIGHT_BLUE
 
 /obj/item/clothing/cloak/raincloak/colored/chalk
 	color = CLOTHING_CHALK_WHITE
 
 /obj/item/clothing/cloak/raincloak/colored/random/Initialize()
-	color = pick(CLOTHING_BLOOD_RED, CLOTHING_PLUM_PURPLE, CLOTHING_SOOT_BLACK, CLOTHING_BARK_BROWN, CLOTHING_FOREST_GREEN, CLOTHING_SKY_BLUE)
+	color = pick(CLOTHING_BLOOD_RED, CLOTHING_PLUM_PURPLE, CLOTHING_SOOT_BLACK, CLOTHING_BARK_BROWN, CLOTHING_FOREST_GREEN, CLOTHING_MIDNIGHT_BLUE)
 	return ..()
 
 /obj/item/clothing/head/hooded/rainhood

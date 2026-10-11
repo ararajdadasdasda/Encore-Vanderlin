@@ -61,7 +61,7 @@
 		/area/indoors/town/church = list(/datum/job/priest, /datum/job/templar, /datum/job/churchling),
 		/area/indoors/town/dwarfin = list(/datum/job/innkeep, /datum/job/innkeep_son, /datum/job/cook),
 		/area/indoors/town/shop = list(/datum/job/merchant, /datum/job/shophand),
-		/area/indoors/town/noble_manor = list(/datum/job/servant, /datum/job/hand, /datum/job/royalknight, /datum/job/men_at_arms, /datum/job/steward, /datum/job/lord),
+		/area/indoors/town/noble_manor = list(/datum/job/servant, /datum/job/hand, /datum/job/royalknight, /datum/job/garrisonsoldier, /datum/job/steward, /datum/job/lord),
 		/area/indoors/town/keep/magician = list(/datum/job/magician, /datum/job/mageapprentice, /datum/job/archivist),
 		/area/indoors/town = list(/datum/job/innkeep, /datum/job/innkeep_son, /datum/job/cook)
 	)

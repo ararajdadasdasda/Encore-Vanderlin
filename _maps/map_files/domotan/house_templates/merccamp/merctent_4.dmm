@@ -1,0 +1,168 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/tentdoor/cyan,
+/turf/open/floor/twig,
+/area/template_noop)
+"c" = (
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/twig,
+/area/template_noop)
+"k" = (
+/obj/machinery/light/fueled/torchholder/metal_torch/north,
+/turf/open/floor/twig,
+/area/template_noop)
+"l" = (
+/turf/open/floor/twig,
+/area/template_noop)
+"m" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/twig,
+/area/template_noop)
+"n" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/spider/stickyweb/solo,
+/turf/open/floor/twig,
+/area/template_noop)
+"u" = (
+/obj/machinery/light/fueled/torchholder/c,
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/floor/twig,
+/area/template_noop)
+"E" = (
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/twig,
+/area/template_noop)
+"M" = (
+/obj/structure/fluff/walldeco/vinez/blue,
+/turf/closed/wall/mineral/tent/cyan,
+/area/template_noop)
+"P" = (
+/obj/structure/tentdoor/cyan,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/twig,
+/area/template_noop)
+"V" = (
+/turf/closed/wall/mineral/tent/cyan,
+/area/template_noop)
+"W" = (
+/obj/structure/sign/property_sign/claim/outsider,
+/turf/closed/wall/mineral/tent/cyan,
+/area/template_noop)
+"X" = (
+/obj/structure/ladder,
+/turf/open/floor/twig,
+/area/template_noop)
+
+(1,1,1) = {"
+M
+M
+V
+V
+V
+V
+"}
+(2,1,1) = {"
+V
+c
+m
+m
+k
+V
+"}
+(3,1,1) = {"
+W
+n
+m
+X
+l
+V
+"}
+(4,1,1) = {"
+P
+l
+m
+l
+m
+V
+"}
+(5,1,1) = {"
+V
+l
+m
+m
+n
+V
+"}
+(6,1,1) = {"
+V
+u
+l
+m
+k
+V
+"}
+(7,1,1) = {"
+V
+V
+M
+M
+V
+V
+"}
+
+(1,1,2) = {"
+V
+V
+V
+V
+V
+V
+"}
+(2,1,2) = {"
+V
+E
+l
+l
+l
+V
+"}
+(3,1,2) = {"
+a
+l
+m
+X
+l
+V
+"}
+(4,1,2) = {"
+a
+l
+m
+l
+m
+V
+"}
+(5,1,2) = {"
+V
+l
+m
+l
+m
+a
+"}
+(6,1,2) = {"
+V
+l
+m
+m
+m
+a
+"}
+(7,1,2) = {"
+V
+V
+V
+V
+V
+V
+"}

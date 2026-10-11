@@ -51,6 +51,7 @@
 "p" = (
 /obj/structure/window,
 /obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 8
 	},
 /turf/open/floor/wood,
@@ -81,6 +82,7 @@
 "x" = (
 /obj/structure/window,
 /obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 1
 	},
 /turf/open/floor/twig,
@@ -129,6 +131,7 @@
 	lockid = "house2";
 	name = "House II"
 	},
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/wood,
 /area/indoors/town)
 "F" = (

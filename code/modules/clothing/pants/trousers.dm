@@ -68,7 +68,7 @@
 	misc_flags = CRAFTING_TEST_EXCLUDE
 
 /obj/item/clothing/pants/trou/leather/quiltedkilt/colored/blue
-	color = CLOTHING_SKY_BLUE
+	color = CLOTHING_MIDNIGHT_BLUE
 
 /obj/item/clothing/pants/trou/leather/quiltedkilt/colored/red
 	color = CLOTHING_ROYAL_RED

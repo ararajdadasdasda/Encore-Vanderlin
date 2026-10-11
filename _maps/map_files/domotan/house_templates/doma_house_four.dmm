@@ -117,10 +117,11 @@
 /turf/open/floor/twig,
 /area/indoors/town)
 "R" = (
-/obj/structure/door{
-	lockid = "house4";
-	name = "House IV"
+/obj/structure/door/bolt{
+	name = "House IV";
+	dir = 1
 	},
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/twig,
 /area/indoors/town)
 "U" = (

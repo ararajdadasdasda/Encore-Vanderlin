@@ -44,7 +44,19 @@
 /datum/species/automaton
 	name = "Automaton Golem"
 	id = SPEC_ID_AUTOMATON
-	desc = "Ancient Arnkin mechanisms long lost to history have frequently left only faded memories. One of the most striking of these are autonomous machines, simply called automatons by the masses. They are embraced at least somewhat inside by a smidgen of Thauma, usually by willing volunteer or harvested in nature, though it is oft used as a means of execution within the far south. Golems are merely automatons created from facsimiles of those same advanced robotic forms, and in their simplest revision. Golems are short-sighted, slow and often hardly the intellectual peer of their mortal counterparts. However, if maintained and held in good favor, these machines have been known to endure for centuries, giving the flicker of soul within time to grow and learn. The majority that don't make the cut never break free from the eternal servitude demanded of their rather costly upkeep."
+	desc = "<b>Golem</b><br>\
+	Ancient Arnkin mechanisms long lost to history have frequently left only faded memories. \
+	One of the most striking of these are autonomous machines, simply called automatons by the masses. \
+	They are embraced at least somewhat inside by a smidgen of Thauma, usually by willing volunteer or harvested in nature, though it is oft used as a means of execution within the far south. \
+	Golems are merely automatons created from facsimiles of those same advanced robotic forms, and in their simplest revision. \
+	Golems are short-sighted, slow and often hardly the intellectual peer of their mortal counterparts. \
+	However, if maintained and held in good favor, these machines have been known to endure for centuries, giving the flicker of soul within time to grow and learn. \
+	The majority that don't make the cut never break free from the eternal servitude demanded of their rather costly upkeep.<br> \
+	+4 Strength, +4 Constitution, +4 Endurance, -2 Speed (and -10% movespeed), -4 Fortune, \
+	+20 skill tier Unarmed Combat, +20 skill tier Wrestling, +30 skill tier Mathematics, +10 skill tier Mining, +10 skill tier Reading. \
+	No Blood, No Organs, No Mood, No Metabolism, No Hunger, No Stamina, No Breathing, No Pain, Sleep Immune, Toxin Immune, Fearless, \
+	Easy Dismemberment, Limb Attachment without Tools, Minor Fall Damage Immunity, Resistant to Cold and Heat."
+
 
 	skin_tone_wording = "plating"
 	default_color = "FFFFFF"
@@ -82,7 +94,7 @@
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/automaton
 
-	allowed_pronouns = PRONOUNS_LIST_IT_ONLY
+	allowed_pronouns = PRONOUNS_LIST
 
 	possible_ages = list(AGE_IMMORTAL)
 	use_skintones = TRUE

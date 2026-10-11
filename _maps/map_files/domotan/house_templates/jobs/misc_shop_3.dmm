@@ -121,14 +121,14 @@
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 "B" = (
-/obj/structure/door/window{
-	name = "Shop 3"
-	},
 /obj/structure/curtain/bounty/dir{
 	opacity = 1;
 	dir = 8
 	},
-/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/bolt{
+	name = "Shop 3";
+	dir = 8
+	},
 /turf/open/floor/ruinedwood/turned/alt,
 /area/indoors/town/shop)
 "C" = (
@@ -149,7 +149,7 @@
 	opacity = 1
 	},
 /obj/effect/mapping_helpers/access/locker,
-/obj/structure/door/window{
+/obj/structure/door/bolt{
 	name = "Shop 3"
 	},
 /turf/open/floor/ruinedwood/turned/alt,

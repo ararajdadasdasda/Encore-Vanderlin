@@ -84,17 +84,14 @@
 /turf/open/water/clean,
 /area/indoors/town)
 "pu" = (
-/obj/structure/fluff/railing/tall/retaining/stone{
-	dir = 1
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/bolt{
+	name = "House VIII"
 	},
-/obj/structure/fluff/railing/tall/retaining/stone{
-	dir = 8
-	},
-/turf/open/water/clean,
+/turf/open/floor/wood,
 /area/indoors/town)
 "qK" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
-/obj/structure/fluff/railing/wood,
 /turf/open/floor/sandstone,
 /area/indoors/town)
 "sb" = (
@@ -112,7 +109,6 @@
 /turf/open/floor/carpet/green,
 /area/indoors/town)
 "vm" = (
-/obj/structure/fluff/railing/wood,
 /obj/structure/fake_machine/scomm,
 /turf/open/floor/sandstone,
 /area/indoors/town)
@@ -129,6 +125,12 @@
 /turf/closed/wall/mineral/stone,
 /area/indoors/town)
 "yl" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
 /turf/open/water/clean,
 /area/indoors/town)
 "yR" = (
@@ -147,10 +149,12 @@
 /turf/open/floor/carpet/green,
 /area/indoors/town)
 "BS" = (
-/obj/structure/fluff/railing/tall/retaining/stone{
-	dir = 8
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door{
+	name = "House VIII";
+	lockid = "house8"
 	},
-/turf/open/water/clean,
+/turf/open/floor/sandstone,
 /area/indoors/town)
 "BZ" = (
 /turf/open/floor/wood,
@@ -162,10 +166,20 @@
 /obj/structure/fluff/railing/tall/retaining/stone{
 	dir = 4
 	},
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
 /turf/open/water/clean,
 /area/indoors/town)
 "DZ" = (
 /obj/structure/window/openclose{
+	dir = 4
+	},
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 4
 	},
 /turf/open/floor/tile,
@@ -203,6 +217,10 @@
 /area/indoors/town)
 "HG" = (
 /obj/structure/window/openclose{
+	dir = 8
+	},
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 8
 	},
 /turf/open/floor/tile,
@@ -265,6 +283,10 @@
 /obj/structure/window/openclose{
 	dir = 1
 	},
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 1
+	},
 /turf/open/floor/tile,
 /area/indoors/town)
 "VX" = (
@@ -295,9 +317,9 @@
 /area/indoors/town)
 "Xh" = (
 /obj/effect/mapping_helpers/access/locker,
-/obj/structure/door{
+/obj/structure/door/bolt{
 	name = "House VIII";
-	lockid = "house8"
+	dir = 1
 	},
 /turf/open/floor/wood,
 /area/indoors/town)
@@ -339,9 +361,9 @@ Ox
 bM
 cH
 qK
-pu
+YR
+YR
 BS
-xW
 "}
 (3,1,1) = {"
 YW
@@ -349,7 +371,7 @@ YW
 vm
 CO
 yl
-Ox
+xW
 "}
 (4,1,1) = {"
 fe
@@ -393,7 +415,7 @@ YW
 YW
 "}
 (2,1,2) = {"
-Xh
+pu
 fY
 fY
 Wc

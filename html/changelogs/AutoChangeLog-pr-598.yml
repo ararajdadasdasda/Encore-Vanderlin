@@ -1,0 +1,9 @@
+author: "Daggonneit"
+delete-after: True
+changes:
+  - bugfix: "Orison now produces light properly."
+  - bugfix: "Prince(ss) is now properly restricted to One Envy."
+  - balance: "Lowered cooldown of Orison from 3 min to 10 sec."
+  - balance: "Lowered cooldown of Prestidigitation from 3 min to 10 sec."
+  - balance: "Lowered cooldown of Rituos from 3 hours to 30 min."
+  - bugfix: "replaces zizo mention with One Envy."

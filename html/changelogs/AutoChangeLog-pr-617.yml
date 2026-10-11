@@ -1,0 +1,4 @@
+author: "Daggonneit"
+delete-after: True
+changes:
+  - rscadd: "Inquisition role list to be permitted access to town housing."

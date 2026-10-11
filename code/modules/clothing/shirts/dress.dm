@@ -26,7 +26,7 @@
 	color = CLOTHING_SOOT_BLACK
 
 /obj/item/clothing/shirt/dress/gen/colored/blue
-	color = CLOTHING_SKY_BLUE
+	color = CLOTHING_MIDNIGHT_BLUE
 
 /obj/item/clothing/shirt/dress/gen/colored/green
 	color = CLOTHING_BOG_GREEN
@@ -169,7 +169,7 @@
 	color = "#a90707"
 
 /obj/item/clothing/shirt/dress/gen/sexy/Initialize()
-	color = pick(CLOTHING_WINESTAIN_RED, CLOTHING_SKY_BLUE, CLOTHING_SALMON	, CLOTHING_SOOT_BLACK)
+	color = pick(CLOTHING_WINESTAIN_RED, CLOTHING_MIDNIGHT_BLUE, CLOTHING_SALMON	, CLOTHING_SOOT_BLACK)
 	return ..()
 
 /obj/item/clothing/shirt/dress/silkydress

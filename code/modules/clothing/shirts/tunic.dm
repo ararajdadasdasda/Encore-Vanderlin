@@ -25,7 +25,7 @@
 	color = CLOTHING_FOREST_GREEN
 
 /obj/item/clothing/shirt/tunic/colored/blue
-	color = CLOTHING_SKY_BLUE
+	color = CLOTHING_MIDNIGHT_BLUE
 
 /obj/item/clothing/shirt/tunic/colored/red
 	color = CLOTHING_BLOOD_RED
@@ -40,7 +40,7 @@
 	color = CLOTHING_ASH_GREY
 
 /obj/item/clothing/shirt/tunic/colored/random/Initialize()
-	color = pick(CLOTHING_PLUM_PURPLE, CLOTHING_BLOOD_RED, CLOTHING_SKY_BLUE, CLOTHING_FOREST_GREEN)
+	color = pick(CLOTHING_PLUM_PURPLE, CLOTHING_BLOOD_RED, CLOTHING_MIDNIGHT_BLUE, CLOTHING_FOREST_GREEN)
 	return ..()
 
 /obj/item/clothing/shirt/tunic/colored/tunicprimary

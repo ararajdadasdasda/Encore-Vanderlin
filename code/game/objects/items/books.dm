@@ -219,7 +219,7 @@
 	icon_state = "[base_icon_state]_[open]"
 
 /obj/item/book/bibble
-	name = "The Book"
+	name = "sliver of The Motonium"
 	icon_state = "bibble_0"
 	base_icon_state = "bibble"
 	title = "bible"
@@ -565,7 +565,7 @@
 
 	var/author = "anonymous"
 	var/content = ""
-	var/category = "Unspecified"
+	var/category = "Universal"
 	var/ckey = ""
 	var/newicon = "basic_book_0"
 	var/written = FALSE
@@ -649,16 +649,16 @@
 
 	var/newtitle = SANITIZE_HEAR_MESSAGE(tgui_input_text(user, "Enter the title of the manuscript:", max_length = MAX_CHARTER_LEN))
 	var/newauthor = SANITIZE_HEAR_MESSAGE(tgui_input_text(user, "Enter the author's name:", max_length = MAX_CHARTER_LEN))
-	var/newcategory = tgui_input_list(user, "Select the category of the manuscript:", list("Apocrypha & Grimoires", "Myths & Tales", "Legends & Accounts", "Thesis", "Eoratica"))
+	// var/newcategory = tgui_input_list(user, "Select the category of the manuscript:", list("Apocrypha & Grimoires", "Myths & Tales", "Legends & Accounts", "Thesis", "Eoratica"))
 	var/selection = tgui_input_list(user, "Choose a book style", "Book Style", book_icons)
 	if(!selection)
 		return
 	var/newicon = book_icons[selection]
 
-	if(newtitle && newauthor && newcategory)
+	if(newtitle && newauthor)
 		name = newtitle
 		author = newauthor
-		category = newcategory
+		// category = newcategory
 		ckey = user.ckey
 		select_icon = newicon
 		icon_state = "paperwrite"

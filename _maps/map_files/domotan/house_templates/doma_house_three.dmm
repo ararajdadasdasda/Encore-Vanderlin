@@ -94,10 +94,14 @@
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town)
 "u" = (
-/obj/structure/curtain/bounty{
-	color = "grey"
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 1
 	},
-/turf/closed/wall/mineral/wood/window,
+/obj/structure/window/openclose{
+	dir = 1
+	},
+/turf/open/floor/twig,
 /area/indoors/town)
 "v" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -120,15 +124,22 @@
 /turf/open/floor/twig,
 /area/indoors/town)
 "C" = (
-/obj/structure/door{
-	lockid = "house3";
-	name = "House III"
-	},
 /obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/bolt{
+	name = "House III";
+	dir = 8
+	},
 /turf/open/floor/twig,
 /area/indoors/town)
 "D" = (
 /turf/closed/wall/mineral/stone/moss,
+/area/indoors/town)
+"E" = (
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
+	},
+/obj/structure/window/openclose,
+/turf/open/floor/twig,
 /area/indoors/town)
 "F" = (
 /obj/structure/sign/property_sign/claim/town,
@@ -196,6 +207,16 @@
 	},
 /obj/item/key/houses/house3,
 /turf/open/floor/wood,
+/area/indoors/town)
+"R" = (
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 4
+	},
+/obj/structure/window/openclose{
+	dir = 4
+	},
+/turf/open/floor/twig,
 /area/indoors/town)
 "S" = (
 /obj/structure/closet/crate/drawer,
@@ -272,7 +293,7 @@ D
 (1,1,2) = {"
 w
 a
-u
+R
 a
 w
 "}
@@ -284,7 +305,7 @@ d
 a
 "}
 (3,1,2) = {"
-u
+E
 A
 U
 y

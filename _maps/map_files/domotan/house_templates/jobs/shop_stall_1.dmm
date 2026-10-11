@@ -80,10 +80,11 @@
 /turf/open/floor/ruinedwood/chevron,
 /area/template_noop)
 "T" = (
-/obj/structure/door/red{
-	name = "Shop Stall I"
-	},
 /obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/bolt{
+	name = "Shop Stall I";
+	dir = 4
+	},
 /turf/open/floor/ruinedwood/two,
 /area/template_noop)
 "U" = (

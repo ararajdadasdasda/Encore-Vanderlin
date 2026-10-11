@@ -9,9 +9,9 @@
 /area/indoors/town)
 "bL" = (
 /obj/effect/mapping_helpers/access/locker,
-/obj/structure/door{
+/obj/structure/door/bolt{
 	name = "House IX";
-	lockid = "house9"
+	dir = 1
 	},
 /turf/open/floor/wood,
 /area/indoors/town)
@@ -41,6 +41,16 @@
 "fY" = (
 /turf/open/floor/tile,
 /area/indoors/town)
+"gH" = (
+/obj/structure/window/openclose{
+	dir = 1
+	},
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
 "gI" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/ruinedwood/two,
@@ -52,6 +62,16 @@
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town)
 "jp" = (
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"js" = (
+/obj/structure/window/openclose{
+	dir = 8
+	},
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 8
+	},
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town)
 "mX" = (
@@ -95,13 +115,21 @@
 /obj/item/storage/sack,
 /turf/open/floor/twig,
 /area/indoors/town)
+"xB" = (
+/obj/structure/door{
+	name = "House IX";
+	lockid = "house9"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/tile,
+/area/indoors/town)
 "xW" = (
 /obj/structure/sign/property_sign/claim/town,
 /turf/closed/wall/mineral/stone/moss,
 /area/indoors/town)
 "yl" = (
 /obj/structure/fermentation_keg/water,
-/turf/open/floor/naturalstone,
+/turf/open/floor/tile/bath,
 /area/indoors/town)
 "Bm" = (
 /obj/structure/fluff/railing/wood{
@@ -118,7 +146,7 @@
 /area/indoors/town)
 "BS" = (
 /obj/structure/barricade/wooden,
-/turf/open/floor/naturalstone,
+/turf/open/floor/tile/bath,
 /area/indoors/town)
 "BZ" = (
 /obj/structure/closet/crate/crafted_closet/inn,
@@ -129,12 +157,14 @@
 /turf/open/floor/tile/bath,
 /area/indoors/town)
 "DZ" = (
-/obj/effect/mapping_helpers/access/locker,
-/obj/structure/door{
-	name = "House IX";
-	lockid = "house9"
+/obj/structure/window/openclose{
+	dir = 4
 	},
-/turf/open/floor/tile,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/two,
 /area/indoors/town)
 "Ee" = (
 /obj/structure/window/openclose{
@@ -200,6 +230,13 @@
 /obj/structure/rack/shelf/biggest,
 /turf/open/floor/tile/bath,
 /area/indoors/town)
+"PY" = (
+/obj/structure/window/openclose,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
 "Sa" = (
 /obj/structure/fake_machine/scomm/r,
 /turf/open/floor/ruinedwood/two,
@@ -247,16 +284,16 @@
 
 (1,1,1) = {"
 xW
-YW
-YW
+xB
+Ox
 Ox
 Ox
 Ox
 "}
 (2,1,1) = {"
 YW
-fe
-fe
+vm
+DW
 Pz
 BS
 Ox
@@ -264,17 +301,17 @@ Ox
 (3,1,1) = {"
 YW
 YE
+SC
 DW
-ph
 yl
 Ox
 "}
 (4,1,1) = {"
 YW
 YR
-DW
-vm
 SC
+ph
+fe
 Ox
 "}
 (5,1,1) = {"
@@ -306,12 +343,12 @@ YW
 YW
 YW
 DZ
-Ee
+DZ
 YW
 YW
 "}
 (2,1,2) = {"
-ER
+PY
 wE
 fY
 fY
@@ -332,7 +369,7 @@ YW
 BE
 jp
 Zz
-iS
+gH
 "}
 (5,1,2) = {"
 YW
@@ -343,7 +380,7 @@ VC
 bL
 "}
 (6,1,2) = {"
-ER
+PY
 JS
 Sa
 fT
@@ -354,7 +391,7 @@ YW
 YW
 YW
 YW
-HG
+js
 YW
 YW
 "}

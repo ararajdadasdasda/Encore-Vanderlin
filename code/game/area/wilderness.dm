@@ -88,3 +88,7 @@
 	background_track_dusk = null
 	background_track_night = null
 	converted_type = /area/outdoors/exposed/magiciantower
+
+/area/outdoors/wilderness/merccamp
+	name = "merc camp"
+	icon_state = "outpost"

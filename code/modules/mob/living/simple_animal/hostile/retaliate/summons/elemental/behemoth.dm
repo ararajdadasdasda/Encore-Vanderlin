@@ -83,3 +83,33 @@
 	penfactor = 15
 	swingdelay = 3
 	candodge = TRUE
+
+/mob/living/simple_animal/hostile/retaliate/elemental/behemoth/katholikos
+	name = "divine earthen guardian"
+	desc = "A divine guardian, a blessed Earth elemental that's been called to stand vigil over a place of spiritual importance. This divine servant of the Court of Earth seems far more powerful than a typical elemental..."
+	health = 3000
+	maxHealth = 3000
+	base_constitution = 24
+	base_strength = 30//lmao
+	base_speed = 13
+	base_endurance = 30
+	base_intelligence = 16
+	faction = list(FACTION_CHURCH)//Will gleefully kill anyone who is not a member of the Church
+	del_on_deaggro = FALSE
+
+/mob/living/simple_animal/hostile/retaliate/elemental/behemoth/katholikos/Initialize()
+	. = ..()
+	AddComponent(/datum/component/ai_aggro_system)
+	AddElement(/datum/element/ai_retaliate)
+	ADD_TRAIT(src, TRAIT_NOBREATH, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_ANTIMAGIC, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_TOXIMMUNE, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_NOMOOD, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_NOHUNGER, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_NOFIRE, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_BASHDOORS, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_NOPAIN, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_CRITICAL_RESISTANCE, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_NOFALLDAMAGE1, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_BREADY, INNATE_TRAIT)

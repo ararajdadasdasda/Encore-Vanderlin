@@ -199,7 +199,7 @@
 
 /obj/structure/fluff/walldeco/sparrowflag
 	name = "sparrow flag"
-	desc = ""
+	desc = "It indicates the presence of mercenaries in the area."
 	icon_state = "sparrow"
 
 /obj/structure/fluff/walldeco/xavo

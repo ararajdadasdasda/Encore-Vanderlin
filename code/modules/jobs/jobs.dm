@@ -84,9 +84,10 @@ GLOBAL_PROTECT(noble_courthand_positions_paths)//Direct paths used primarily for
 
 GLOBAL_LIST_INIT(garrison_positions, list(
 	/datum/job/royalknight::title,
-	/datum/job/guardsman::title,
+//	/datum/job/guardsman::title,
 	/datum/job/lieutenant::title,
-	/datum/job/men_at_arms::title,
+	/datum/job/garrisonsoldier::title,
+//	/datum/job/men_at_arms::title,
 	/datum/job/gatemaster::title,
 	/datum/job/dungeoneer::title,
 	/datum/job/town_elder::title,
@@ -100,14 +101,19 @@ GLOBAL_LIST_INIT(garrison_positions_paths, list(
 	/datum/job/royalknight,
 	/datum/job/advclass/royalknight,
 	/datum/job/advclass/royalknight/steam,
-	/datum/job/guardsman,
+//	/datum/job/guardsman,
 	/datum/job/lieutenant,
-	/datum/job/men_at_arms,
-	/datum/job/advclass/menatarms,
-	/datum/job/advclass/menatarms/watchman_pikeman,
-	/datum/job/advclass/menatarms/watchman_axeman,
-	/datum/job/advclass/menatarms/watchman_ranger,
-	/datum/job/advclass/menatarms/watchman_swordsman,
+	/datum/job/garrisonsoldier,
+	/datum/job/advclass/garrison,
+	/datum/job/advclass/garrison/footman,
+	/datum/job/advclass/garrison/archer,
+	/datum/job/advclass/garrison/pikeman,
+//	/datum/job/men_at_arms,
+//	/datum/job/advclass/menatarms,
+//	/datum/job/advclass/menatarms/watchman_pikeman,
+//	/datum/job/advclass/menatarms/watchman_axeman,
+//	/datum/job/advclass/menatarms/watchman_ranger,
+//	/datum/job/advclass/menatarms/watchman_swordsman,
 	/datum/job/gatemaster,
 	/datum/job/advclass/gatemaster,
 	/datum/job/advclass/gatemaster/gatemaster_whip,
@@ -133,7 +139,7 @@ GLOBAL_PROTECT(garrison_positions_paths)//Direct paths used primarily for housin
 
 GLOBAL_LIST_INIT(garrison_no_rebellion, list(
 	/datum/job/royalknight::title,
-	/datum/job/men_at_arms::title,
+//	/datum/job/men_at_arms::title,
 	/datum/job/lieutenant::title,
 	/datum/job/gatemaster::title,
 	/datum/job/forestwarden::title,
@@ -167,6 +173,14 @@ GLOBAL_LIST_INIT(inquisition_positions, list(
 	/datum/job/adept::title,
 	))
 GLOBAL_PROTECT(inquisition_positions)
+
+
+GLOBAL_LIST_INIT(inquisition_positions_paths, list(
+	/datum/job/inquisitor,
+	/datum/job/orthodoxist,
+	/datum/job/absolver,
+	/datum/job/adept,
+	))
 
 GLOBAL_LIST_INIT(serf_positions, list(
 	/datum/job/innkeep::title,

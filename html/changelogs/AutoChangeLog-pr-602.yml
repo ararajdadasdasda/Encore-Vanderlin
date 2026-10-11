@@ -1,0 +1,5 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - rscadd: "Smashes MAA and Watchmen together."
+  - balance: "Reduces Captain to 1 slot, Royal Knights to 4 slots, and Garrison Lieutenant to 1 slot."

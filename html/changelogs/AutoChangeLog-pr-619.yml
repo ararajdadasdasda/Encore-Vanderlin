@@ -1,0 +1,4 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - bugfix: "Fixed the inaccessible housing locks by making every upstairs level beyond the instancer a one-way deadbolt."

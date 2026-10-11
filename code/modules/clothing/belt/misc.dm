@@ -633,7 +633,7 @@
 	max_integrity = 400
 	equip_sound = 'sound/blank.ogg'
 	sewrepair = /datum/attribute/skill/craft/tanning/patching
-	salvage_amount = 2
+	salvage_amount = 1
 	salvage_result = /obj/item/natural/hide/cured
 	component_type = /datum/component/storage/concrete/grid/orebag
 	var/auto_pickup = TRUE

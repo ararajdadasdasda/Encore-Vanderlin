@@ -160,6 +160,7 @@
 "kN" = (
 /obj/structure/window,
 /obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 4
 	},
 /turf/open/floor/cobble,
@@ -347,6 +348,14 @@
 /obj/structure/rack/shelf/notdense,
 /turf/open/floor/cobble,
 /area/indoors/town/noble_manor/yellow)
+"za" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/indoors/town/noble_manor/yellow)
 "zp" = (
 /obj/structure/chair/stool,
 /obj/structure/carpet,
@@ -427,7 +436,9 @@
 /area/indoors/town/noble_manor/yellow)
 "Fg" = (
 /obj/structure/window,
-/obj/structure/curtain/bounty/dir,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
+	},
 /turf/open/floor/cobble,
 /area/indoors/town/noble_manor/yellow)
 "FQ" = (
@@ -440,6 +451,7 @@
 "FZ" = (
 /obj/structure/window,
 /obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 8
 	},
 /turf/open/floor/wood,
@@ -526,6 +538,7 @@
 "Lr" = (
 /obj/structure/window,
 /obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 1
 	},
 /turf/open/floor/wood,
@@ -708,8 +721,8 @@ cm
 kN
 dC
 dC
-sv
-sv
+za
+za
 dC
 cm
 FY

@@ -4,7 +4,9 @@
 /area/indoors/town)
 "b" = (
 /obj/structure/window,
-/obj/structure/curtain/bounty/dir,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
+	},
 /turf/open/floor/twig,
 /area/indoors/town)
 "d" = (
@@ -25,6 +27,7 @@
 "j" = (
 /obj/structure/window,
 /obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 1
 	},
 /turf/open/floor/twig,
@@ -44,14 +47,8 @@
 "u" = (
 /obj/structure/window,
 /obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 8
-	},
-/turf/open/floor/twig,
-/area/indoors/town)
-"v" = (
-/obj/structure/door{
-	lockid = "house1";
-	name = "House I"
 	},
 /turf/open/floor/twig,
 /area/indoors/town)
@@ -92,11 +89,11 @@
 /turf/closed/wall/mineral/stone/moss,
 /area/indoors/town)
 "I" = (
-/obj/structure/door{
-	lockid = "house1";
-	name = "House I"
-	},
 /obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/bolt{
+	name = "House I";
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/indoors/town)
 "J" = (
@@ -141,11 +138,11 @@
 /turf/open/floor/wood,
 /area/indoors/town)
 "Y" = (
+/obj/effect/mapping_helpers/access/locker,
 /obj/structure/door{
 	lockid = "house1";
 	name = "House I"
 	},
-/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/twig,
 /area/indoors/town)
 "Z" = (
@@ -168,7 +165,7 @@ i
 t
 D
 L
-v
+Y
 "}
 (3,1,1) = {"
 b

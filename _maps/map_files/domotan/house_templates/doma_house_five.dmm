@@ -12,6 +12,16 @@
 /obj/item/coin/copper/pile,
 /turf/open/floor/wood,
 /area/indoors/town)
+"e" = (
+/obj/structure/window/openclose{
+	dir = 1
+	},
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 1
+	},
+/turf/open/floor/twig,
+/area/indoors/town)
 "f" = (
 /obj/structure/bed/mediocre,
 /obj/item/bedsheet/wool,
@@ -36,6 +46,7 @@
 /turf/open/floor/twig,
 /area/indoors/town)
 "o" = (
+/obj/effect/mapping_helpers/access/locker,
 /obj/structure/door{
 	lockid = "house5";
 	name = "House V"
@@ -55,6 +66,13 @@
 	},
 /turf/open/floor/twig,
 /area/indoors/town)
+"t" = (
+/obj/structure/window/openclose,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
+	},
+/turf/open/floor/twig,
+/area/indoors/town)
 "u" = (
 /obj/structure/window/openclose,
 /obj/structure/curtain/bounty{
@@ -63,10 +81,14 @@
 /turf/open/floor/twig,
 /area/indoors/town)
 "v" = (
-/obj/structure/curtain/bounty{
-	color = "grey"
+/obj/structure/window/openclose{
+	dir = 8
 	},
-/turf/closed/wall/mineral/wood/window,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 8
+	},
+/turf/open/floor/twig,
 /area/indoors/town)
 "w" = (
 /turf/closed/wall/mineral/wooddark,
@@ -82,9 +104,7 @@
 /turf/open/floor/twig,
 /area/indoors/town)
 "G" = (
-/obj/structure/door{
-	name = "Bedroom"
-	},
+/obj/structure/curtain/bounty,
 /turf/open/floor/wood,
 /area/indoors/town)
 "J" = (
@@ -174,18 +194,18 @@ U
 M
 "}
 (3,1,1) = {"
-v
+t
 g
 F
 F
-v
+e
 "}
 (4,1,1) = {"
-v
+t
 p
 F
 F
-v
+e
 "}
 (5,1,1) = {"
 M

@@ -112,9 +112,9 @@
 	if(!has_paper)
 		to_chat(user, span_warning("[src] requires a blank piece of paper to print."))
 		return
-	var/choice = input(user, "Choose an option for \the [src]") as null|anything in list("Print The Book", "Print a Tome of Justice", "Print from the Archive", "Profession Manuel")
+	var/choice = input(user, "Choose an option for \the [src]") as null|anything in list("Print The Motonium", "Print a Tome of Justice", "Print from the Archive", "Profession Manuel")
 	switch(choice)
-		if ("Print The Book")
+		if ("Print The Motonium")
 			start_printing(user, "bibble")
 		if ("Print a Tome of Justice")
 			start_printing(user, "justice")

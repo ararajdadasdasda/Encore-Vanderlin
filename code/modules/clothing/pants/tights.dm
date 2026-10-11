@@ -53,11 +53,11 @@
 	return ..()
 
 /obj/item/clothing/pants/tights/colored/guard
-	color = CLOTHING_PLUM_PURPLE
+	color = COLOR_SHIRLEIGH_BLUE
 	uses_lord_coloring = LORD_PRIMARY
 
 /obj/item/clothing/pants/tights/colored/guardsecond
-	color = CLOTHING_BLOOD_RED
+	color = COLOR_WHITE
 	uses_lord_coloring = LORD_SECONDARY
 
 /obj/item/clothing/pants/tights/sailor

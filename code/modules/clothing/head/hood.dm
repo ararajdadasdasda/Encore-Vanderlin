@@ -81,7 +81,7 @@
 	uses_lord_coloring = LORD_PRIMARY
 
 /obj/item/clothing/head/roguehood/colored/guardsecond
-	color = CLOTHING_BLOOD_RED
+	color = COLOR_WHITE
 	uses_lord_coloring = LORD_SECONDARY
 
 /obj/item/clothing/head/roguehood/AdjustClothes(mob/living/carbon/user)

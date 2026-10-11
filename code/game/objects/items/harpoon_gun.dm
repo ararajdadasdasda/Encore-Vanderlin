@@ -34,7 +34,7 @@
 	bigboy = TRUE
 	wlength = WLENGTH_LONG
 	w_class = WEIGHT_CLASS_BULKY
-	slot_flags = ITEM_SLOT_HIP
+	slot_flags = ITEM_SLOT_HIP| ITEM_SLOT_BACK
 	item_weight = 6 KILOGRAMS
 
 	///is the hook retracted

@@ -1,0 +1,322 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/snow,
+/area/template_noop)
+"b" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/floor/snow,
+/area/template_noop)
+"f" = (
+/turf/open/openspace,
+/area/template_noop)
+"h" = (
+/obj/structure/sign/property_sign/claim/outsider,
+/turf/closed/wall/mineral/decorstone,
+/area/template_noop)
+"q" = (
+/turf/open/floor/cobble,
+/area/template_noop)
+"s" = (
+/obj/item/natural/rock,
+/turf/open/floor/snow,
+/area/template_noop)
+"I" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/template_noop)
+"J" = (
+/obj/structure/flora/grass/bush,
+/turf/open/floor/snow,
+/area/template_noop)
+"Y" = (
+/turf/closed/wall/mineral/decorstone,
+/area/template_noop)
+
+(1,1,1) = {"
+h
+Y
+a
+a
+b
+a
+a
+a
+I
+I
+"}
+(2,1,1) = {"
+Y
+a
+J
+a
+a
+a
+J
+a
+a
+I
+"}
+(3,1,1) = {"
+a
+a
+a
+a
+s
+a
+a
+a
+a
+a
+"}
+(4,1,1) = {"
+a
+a
+a
+b
+a
+a
+a
+s
+a
+a
+"}
+(5,1,1) = {"
+a
+J
+a
+a
+a
+a
+a
+a
+b
+a
+"}
+(6,1,1) = {"
+a
+a
+a
+a
+b
+a
+a
+a
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(8,1,1) = {"
+a
+a
+b
+a
+b
+J
+a
+b
+J
+a
+"}
+(9,1,1) = {"
+a
+b
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(10,1,1) = {"
+I
+q
+s
+a
+b
+a
+a
+s
+a
+a
+"}
+(11,1,1) = {"
+I
+q
+a
+a
+a
+a
+b
+a
+a
+I
+"}
+(12,1,1) = {"
+I
+I
+a
+a
+a
+I
+a
+a
+I
+I
+"}
+
+(1,1,2) = {"
+I
+I
+f
+f
+f
+f
+f
+f
+I
+I
+"}
+(2,1,2) = {"
+I
+f
+f
+f
+f
+f
+f
+f
+f
+I
+"}
+(3,1,2) = {"
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+"}
+(4,1,2) = {"
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+"}
+(5,1,2) = {"
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+"}
+(6,1,2) = {"
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+"}
+(7,1,2) = {"
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+"}
+(8,1,2) = {"
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+"}
+(9,1,2) = {"
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+"}
+(10,1,2) = {"
+I
+f
+f
+f
+f
+f
+f
+f
+f
+f
+"}
+(11,1,2) = {"
+I
+f
+f
+f
+f
+f
+f
+f
+f
+I
+"}
+(12,1,2) = {"
+I
+I
+f
+f
+f
+I
+f
+f
+I
+I
+"}

@@ -1,3 +1,4 @@
+/*
 /datum/job/guardsman
 	title = JOB_CITY_WATCH
 	tutorial = "You are a member of the City Watch. \
@@ -266,3 +267,4 @@
 	set name = "HALT!"
 	set category = "Emotes.Noises"
 	emote("haltyell")
+*/

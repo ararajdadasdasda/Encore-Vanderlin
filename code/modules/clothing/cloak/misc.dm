@@ -107,7 +107,7 @@
 
 /obj/item/clothing/cloak/half/guardsecond
 	name = "guard's half cloak"
-	color = CLOTHING_BLOOD_RED
+	color = COLOR_WHITE
 	icon_state = "guardcloak"
 	allowed_race = ALL_RACES_LIST
 	uses_lord_coloring = LORD_PRIMARY

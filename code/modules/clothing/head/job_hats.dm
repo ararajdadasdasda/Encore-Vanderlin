@@ -173,7 +173,7 @@
 	icon_state = "dochat1"
 	item_state = "dochat1"
 	detail_tag = "_detail"
-	detail_color = CLOTHING_SCARLET
+	detail_color = CLOTHING_VICIOUS_RED
 	uses_lord_coloring = LORD_PRIMARY
 
 /obj/item/clothing/head/courtphysician/female

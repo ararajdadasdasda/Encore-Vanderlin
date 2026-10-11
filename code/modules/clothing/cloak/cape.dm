@@ -17,12 +17,13 @@
 	misc_flags = CRAFTING_TEST_EXCLUDE
 
 /obj/item/clothing/cloak/cape/colored/knight
+	name = "knight's cape"
 	color = COLOR_WHITE
 	uses_lord_coloring = LORD_SECONDARY
 
 /obj/item/clothing/cloak/cape/guard
 	name = "guard's cape"
-	color = CLOTHING_BLOOD_RED
+	color = COLOR_SHIRLEIGH_BLUE
 	uses_lord_coloring = LORD_PRIMARY
 
 /obj/item/clothing/cloak/captain

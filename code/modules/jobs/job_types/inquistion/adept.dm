@@ -8,7 +8,7 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_SHEPHERD
 	selection_color = JCOLOR_INQUISITION
-	factions = list(FACTION_TOWN)
+	factions = list(FACTION_TOWN, FACTION_CHURCH)
 	total_positions = 99
 	spawn_positions = 99
 	bypass_lastclass = TRUE
@@ -64,4 +64,4 @@
 
 /datum/job/advclass/adept
 	exp_types_granted = list(EXP_TYPE_INQUISITION, EXP_TYPE_COMBAT)
-	factions = list(FACTION_INQUISITION, FACTION_TOWN)
+	factions = list(FACTION_INQUISITION, FACTION_TOWN, FACTION_CHURCH)

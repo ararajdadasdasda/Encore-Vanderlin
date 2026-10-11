@@ -31,7 +31,7 @@
 		/datum/job/absolver,
 		/datum/job/orthodoxist,
 		/datum/job/adept,
-		/datum/job/men_at_arms,
+//		/datum/job/men_at_arms,
 		/datum/job/gatemaster,
 		/datum/job/forestwarden,
 		/datum/job/royalknight,

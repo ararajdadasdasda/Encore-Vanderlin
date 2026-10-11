@@ -31,7 +31,7 @@
 		/datum/job/bapprentice,
 		/datum/job/bandit,
 		/datum/job/minor_noble,
-		/datum/job/guardsman,
+//		/datum/job/guardsman,
 		/datum/job/courtagent,
 		/datum/job/archivist,
 		/datum/job/templar,

@@ -1,0 +1,853 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"b" = (
+/obj/structure/flora/grass/water,
+/turf/open/floor/dirt/road,
+/area/indoors/wilderness)
+"c" = (
+/obj/structure/flora/grass/water/reeds,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"d" = (
+/turf/open/openspace,
+/area/template_noop)
+"e" = (
+/obj/structure/barricade/wooden,
+/obj/structure/roguetent,
+/turf/open/floor/cobble,
+/area/indoors/wilderness)
+"f" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/cobble,
+/area/indoors/wilderness)
+"g" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"h" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/wilderness)
+"j" = (
+/turf/open/floor/cobble,
+/area/template_noop)
+"l" = (
+/turf/open/floor/dirt/road,
+/area/indoors/wilderness)
+"m" = (
+/obj/item/natural/stone,
+/turf/open/floor/cobble,
+/area/indoors/wilderness)
+"n" = (
+/obj/structure/sign/property_sign/claim/outsider,
+/turf/closed/wall/mineral/decorstone,
+/area/template_noop)
+"p" = (
+/turf/open/water/ocean,
+/area/template_noop)
+"q" = (
+/obj/structure/flora/grass/water/reeds,
+/turf/open/water/ocean/abyss,
+/area/template_noop)
+"r" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/cobble,
+/area/indoors/wilderness)
+"t" = (
+/turf/open/floor/cobble,
+/area/indoors/wilderness)
+"u" = (
+/turf/open/water/ocean/abyss,
+/area/template_noop)
+"v" = (
+/turf/closed/wall/mineral/tent,
+/area/indoors/wilderness)
+"w" = (
+/turf/open/floor/rooftop,
+/area/template_noop)
+"y" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/cobble,
+/area/template_noop)
+"z" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"C" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/cobble,
+/area/template_noop)
+"D" = (
+/obj/structure/window/stained,
+/obj/structure/curtain/bounty/dir,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/dirt/road,
+/area/indoors/wilderness)
+"E" = (
+/obj/structure/flora/grass/water,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"G" = (
+/obj/item/natural/stone,
+/turf/open/floor/dirt/road,
+/area/indoors/wilderness)
+"H" = (
+/turf/closed/wall/mineral/wooddark/vertical,
+/area/indoors/wilderness)
+"I" = (
+/obj/structure/flora/grass/water,
+/turf/open/water/ocean/abyss,
+/area/template_noop)
+"J" = (
+/obj/structure/chair/wood/alt/chair3{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/floor/cobble,
+/area/indoors/wilderness)
+"K" = (
+/obj/structure/rack/shelf/big,
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/cobble,
+/area/indoors/wilderness)
+"L" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 1
+	},
+/obj/structure/curtain/bounty/dir{
+	dir = 1
+	},
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/dirt/road,
+/area/indoors/wilderness)
+"M" = (
+/obj/structure/chair/stool,
+/obj/item/grown/log/tree/stick,
+/turf/open/floor/cobble,
+/area/indoors/wilderness)
+"N" = (
+/obj/item/natural/stone,
+/turf/open/floor/dirt,
+/area/indoors/wilderness)
+"O" = (
+/obj/structure/flora/grass/water/reeds,
+/obj/structure/flora/grass/water,
+/turf/open/water/ocean/abyss,
+/area/template_noop)
+"P" = (
+/obj/structure/flora/grass/water,
+/obj/structure/flora/grass/water,
+/turf/open/water/ocean/abyss,
+/area/template_noop)
+"S" = (
+/turf/open/floor/dirt,
+/area/indoors/wilderness)
+"U" = (
+/obj/structure/rack,
+/turf/open/floor/cobble,
+/area/indoors/wilderness)
+"V" = (
+/turf/closed/wall/mineral/stonebrick/reddish,
+/area/indoors/wilderness)
+"X" = (
+/obj/effect/decal/cleanable/dirt/cobweb,
+/obj/structure/closet/crate/chest/wicker/random_soilson,
+/turf/open/floor/cobble,
+/area/indoors/wilderness)
+"Y" = (
+/obj/item/natural/stone,
+/obj/structure/rack,
+/turf/open/floor/cobble,
+/area/indoors/wilderness)
+"Z" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 1
+	},
+/obj/structure/curtain/bounty/dir{
+	dir = 1
+	},
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/dirt,
+/area/indoors/wilderness)
+
+(1,1,1) = {"
+u
+u
+u
+u
+u
+u
+u
+a
+a
+u
+u
+p
+p
+p
+p
+"}
+(2,1,1) = {"
+I
+I
+I
+I
+I
+u
+u
+a
+a
+E
+u
+u
+u
+u
+u
+"}
+(3,1,1) = {"
+P
+q
+c
+c
+c
+c
+a
+a
+a
+a
+E
+a
+a
+u
+u
+"}
+(4,1,1) = {"
+O
+u
+a
+a
+a
+a
+z
+z
+a
+a
+a
+E
+E
+q
+q
+"}
+(5,1,1) = {"
+O
+q
+a
+h
+h
+h
+H
+v
+v
+e
+h
+a
+a
+I
+q
+"}
+(6,1,1) = {"
+I
+u
+a
+h
+X
+r
+r
+S
+S
+S
+h
+h
+a
+u
+I
+"}
+(7,1,1) = {"
+a
+u
+a
+e
+m
+t
+m
+z
+S
+S
+S
+h
+a
+a
+u
+"}
+(8,1,1) = {"
+a
+a
+a
+H
+K
+t
+y
+z
+j
+t
+S
+v
+a
+a
+u
+"}
+(9,1,1) = {"
+u
+a
+a
+D
+l
+l
+z
+z
+j
+f
+S
+g
+a
+a
+u
+"}
+(10,1,1) = {"
+u
+a
+a
+v
+S
+l
+S
+z
+z
+S
+S
+Z
+a
+u
+u
+"}
+(11,1,1) = {"
+u
+u
+a
+h
+l
+G
+S
+t
+t
+S
+N
+h
+a
+a
+u
+"}
+(12,1,1) = {"
+u
+u
+a
+h
+S
+S
+l
+t
+f
+S
+S
+h
+a
+u
+u
+"}
+(13,1,1) = {"
+u
+u
+a
+h
+l
+l
+S
+S
+S
+l
+S
+h
+a
+a
+a
+"}
+(14,1,1) = {"
+a
+u
+a
+C
+t
+f
+f
+S
+l
+S
+S
+L
+a
+a
+a
+"}
+(15,1,1) = {"
+c
+a
+a
+v
+M
+t
+t
+S
+S
+t
+U
+V
+a
+a
+I
+"}
+(16,1,1) = {"
+u
+a
+a
+h
+J
+t
+t
+b
+b
+t
+Y
+V
+c
+u
+I
+"}
+(17,1,1) = {"
+u
+u
+a
+h
+h
+h
+v
+v
+v
+V
+h
+V
+c
+u
+I
+"}
+(18,1,1) = {"
+u
+u
+I
+E
+E
+a
+c
+a
+a
+a
+a
+a
+a
+u
+u
+"}
+(19,1,1) = {"
+u
+u
+u
+a
+a
+c
+c
+a
+a
+a
+a
+a
+u
+u
+u
+"}
+(20,1,1) = {"
+u
+u
+u
+u
+u
+n
+a
+a
+a
+u
+p
+u
+u
+u
+u
+"}
+
+(1,1,2) = {"
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+"}
+(2,1,2) = {"
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+"}
+(3,1,2) = {"
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+"}
+(4,1,2) = {"
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+"}
+(5,1,2) = {"
+d
+d
+d
+w
+w
+w
+w
+w
+w
+w
+w
+d
+d
+d
+d
+"}
+(6,1,2) = {"
+d
+d
+d
+w
+w
+w
+w
+w
+w
+w
+w
+w
+d
+d
+d
+"}
+(7,1,2) = {"
+d
+d
+d
+w
+w
+w
+w
+d
+w
+w
+w
+w
+d
+d
+d
+"}
+(8,1,2) = {"
+d
+d
+d
+w
+w
+w
+d
+d
+d
+w
+w
+w
+d
+d
+d
+"}
+(9,1,2) = {"
+d
+d
+d
+w
+w
+w
+d
+d
+d
+d
+w
+d
+d
+d
+d
+"}
+(10,1,2) = {"
+d
+d
+d
+w
+w
+w
+w
+d
+d
+w
+w
+w
+d
+d
+d
+"}
+(11,1,2) = {"
+d
+d
+d
+w
+w
+w
+w
+w
+w
+w
+w
+w
+d
+d
+d
+"}
+(12,1,2) = {"
+d
+d
+d
+w
+w
+w
+w
+w
+w
+w
+w
+w
+d
+d
+d
+"}
+(13,1,2) = {"
+d
+d
+d
+w
+w
+w
+w
+w
+w
+w
+w
+w
+d
+d
+d
+"}
+(14,1,2) = {"
+d
+d
+d
+d
+w
+w
+w
+w
+w
+w
+w
+w
+d
+d
+d
+"}
+(15,1,2) = {"
+d
+d
+d
+w
+w
+w
+w
+w
+w
+w
+w
+w
+d
+d
+d
+"}
+(16,1,2) = {"
+d
+d
+d
+w
+w
+w
+w
+w
+w
+w
+w
+w
+d
+d
+d
+"}
+(17,1,2) = {"
+d
+d
+d
+w
+w
+w
+w
+w
+w
+w
+w
+w
+d
+d
+d
+"}
+(18,1,2) = {"
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+"}
+(19,1,2) = {"
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+"}
+(20,1,2) = {"
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+"}

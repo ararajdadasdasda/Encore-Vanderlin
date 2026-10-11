@@ -303,7 +303,7 @@
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/sleeves_courtphys.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/courtphys.dmi'
 	detail_tag = "_detail"
-	detail_color = CLOTHING_SCARLET
+	detail_color = CLOTHING_VICIOUS_RED
 	boobed = FALSE
 	uses_lord_coloring = LORD_PRIMARY
 	alternate_worn_layer = 19

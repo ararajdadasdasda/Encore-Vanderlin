@@ -1,7 +1,7 @@
 /datum/job/orthodoxist
 	title = JOB_SACRESTANTS
 	department_flag = INQUISITION
-	factions = list(FACTION_TOWN)
+	factions = list(FACTION_TOWN, FACTION_CHURCH)
 	total_positions = 99
 	spawn_positions = 99
 	allowed_races = RACES_LESS_DISCRIMINATED
@@ -70,4 +70,4 @@
 
 /datum/job/advclass/sacrestant
 	exp_types_granted = list(EXP_TYPE_INQUISITION, EXP_TYPE_COMBAT)
-	factions = list(FACTION_INQUISITION, FACTION_TOWN)
+	factions = list(FACTION_INQUISITION, FACTION_TOWN, FACTION_CHURCH)
